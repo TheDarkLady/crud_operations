@@ -5,7 +5,7 @@ import Home from './Home'
 import Create from './Create'
 import Read from './Read'
 import Update from './Update'
-// import bootstrap from 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
 function App() {
