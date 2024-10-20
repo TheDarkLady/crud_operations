@@ -9,6 +9,12 @@ function Home() {
     .then(res => setData(res.data))
     .catch(err => console.log(err))
   }, [])
+  function handleDelete(id){
+    axios.delete('http://localhost:3000/users/'+ id).then(res =>{
+      console.log(res.data)
+      setData(data.filter(d => d.id !== id))
+    }).catch(err => console.log(err))
+  }
   return (
     <div className='d-flex flex-column justify-content-center align-items-center bg-light vw-100 vh-100 overflow-hidden'>
       <div className='w-100 d-flex flex-row justify-content-around gap-2'>
@@ -40,9 +46,9 @@ function Home() {
                   <td>{d.phone}</td>
                   <td>
                     <div className='d-flex  justify-content-evenly gap-2'>
-                    <button className='btn btn-info'>Read</button>
-                    <button className='btn btn-primary'>Edit</button>
-                    <button className='btn btn-danger'>Delete</button>
+                    <Link to={`/read/${d.id}`}  className='btn btn-info'>Read</Link>
+                    <Link to={`/update/${d.id}`} className='btn btn-primary'>Edit</Link>
+                    <button onClick={(e)=>handleDelete(d.id)} className='btn btn-danger'>Delete</button>
                     </div>
                   </td>
                 </tr>

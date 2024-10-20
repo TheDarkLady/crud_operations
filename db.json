@@ -1,14 +1,6 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "John Doe",
-      "username": "johndoe",
-      "email": "johndoe@me.com",
-      "phone": "1234567890",
-      "website": "johndoe.com"
-    },
-    {
       "id": "2",
       "name": "lakshman",
       "username": "lakshman",
@@ -17,41 +9,21 @@
       "website": "lakshman.com"
     },
     {
-      "id": "3",
-      "name": "chandana",
-      "username": "chandana",
-      "email": "chandana@me.com",
-      "phone": "987654321",
-      "website": "chandana.com"
-    },
-    {
-      "id": "4",
-      "name": "srujana",
-      "username": "srujana",
-      "email": "srujana@me.com",
-      "phone": "3287423898",
-      "website": "srujana.com"
-    },
-    {
       "id": "5",
-      "name": "shareena",
-      "username": "shareena",
-      "email": "shareena@me.com",
-      "phone": "1234567890",
-      "website": "shareena.com"
-    },
-    {
-      "id": "6",
-      "name": "venky",
-      "username": "venky",
-      "email": "venky@me.com",
-      "phone": "23446436782",
-      "website": "venky.com"
+      "name": "upd2",
+      "email": "upd2@gmail.com",
+      "phone": "987654321"
     },
     {
       "id": "12b5",
       "name": "lakshmi",
       "email": "lakshmichaithanya13@gmail.com",
+      "phone": "97653256445"
+    },
+    {
+      "id": "c7ee",
+      "name": "lakshmi chaithu",
+      "email": "chaithu2703@gmail.com",
       "phone": "97653256445"
     }
   ]
