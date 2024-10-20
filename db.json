@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "username": "johndoe",
+        "email": "johndoe@me.com",
+        "phone": "1234567890",
+        "website": "johndoe.com"
+    },
+    {
+        "id": 2,
+        "name": "lakshman",
+        "username": "lakshman",
+        "email": "lakshman@me.com",
+        "phone": "1234567890",
+        "website": "lakshman.com"
+    },
+    {
+        "id": 3,
+        "name": "chandana",
+        "username": "chandana",
+        "email": "chandana@me.com",
+        "phone": "987654321",
+        "website": "chandana.com"
+    },
+    {
+        "id": 4,
+        "name": "srujana",
+        "username": "srujana",
+        "email": "srujana@me.com",
+        "phone": "3287423898",
+        "website": "srujana.com"
+    },
+    {
+        "id": 5,
+        "name": "shareena",
+        "username": "shareena",
+        "email": "shareena@me.com",
+        "phone": "1234567890",
+        "website": "shareena.com"
+    },
+    {
+        "id": 6,
+        "name": "venky",
+        "username": "venky",
+        "email": "venky@me.com",
+        "phone": "23446436782",
+        "website": "venky.com"
+    }
+
+]
